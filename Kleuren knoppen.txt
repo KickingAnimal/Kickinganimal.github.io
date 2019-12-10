@@ -1,4 +1,4 @@
-info -- #3a5d86 (personeelsportaal, leerlingenportaal, tio, webmail)	|
+info -- #506BBD (personeelsportaal, leerlingenportaal, tio, webmail)	|
 white -- #FFFFFF?							|
 sucsess -- #FF8800 (itslearning)					 \
 primary -- #149dcc (magister)						  \	Outline
@@ -6,10 +6,14 @@ secondary -- #e42f26 (PrintMyDoc) 					  /
 warning -- #0078d4 (outlook) 						 /
 danger -- #217346 (jaarrooster RPCL, telefoonlijst)			|
 black -- #6264a7 (Ipad/laptop reserveren)				|
+
+
+
+
+
+
 RPCL-blauw -- #258B96
 
-
-
-
-
-Danger -- #217346 (sources top button)
+secondary -- #1c6d75 (menu buttons hover)         RPCL donkerblauw
+Danger -- #217346 (%none%)
+info -- #506BBD (sources top button)

@@ -1,5 +1,5 @@
 textarea:focus, input:focus {
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 input, select, textarea{
@@ -49,7 +49,7 @@ input, textarea {
 	 border: 3px solid #0098cc;
 }
  input[type='email']:focus + label:before, input[type='text']:focus + label:before, input[type='email']:active + label:before, input[type='text']:active + label:before {
-	 color: #ffffff;
+	 color: rgba(0, 0, 0, 0);
 }
  input[type='email'] + label, input[type='text'] + label {
 	 display: block;
@@ -91,7 +91,7 @@ input, textarea {
 }
  input[type='email']:valid + label:before, input[type='text']:valid + label:before {
 	 content: attr(alt);
-	 color: #ffffff;
+	 color: rgba(0, 0, 0, 0);
 }
  textarea {
 	 width: 18em;
