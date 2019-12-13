@@ -1987,6 +1987,13 @@ section.lazy-placeholder:after {
 .btn-width-3 {
   width: calc(30%);
 }
+.padding-1 {
+  padding-right: 140px;
+  position: absolute;
+}
+.center {
+  text-align: inherit;
+}
 
 @media (max-width: 767px) {
   .cid-rIBj85EsUx .footer-lower .social-list {
