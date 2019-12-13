@@ -1979,7 +1979,7 @@ section.lazy-placeholder:after {
   height: calc(4.1rem + 1px);
 }
 .btn-width-1 {
-  width: calc(15rem + 5px);
+  width: calc(15rem + 15px);
 }
 .btn-width-2 {
   width: calc(15rem + 1px);
