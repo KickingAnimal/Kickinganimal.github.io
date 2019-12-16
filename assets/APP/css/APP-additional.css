@@ -433,7 +433,7 @@ body {
 .btn-black-outline,
 .btn-black-outline:active {
   background: none;
-  border-color: #6264a7;
+  border-color: #258B96;
   color: #FFFFFF;
 }
 .btn-black-outline:hover,
@@ -441,8 +441,8 @@ body {
 .btn-black-outline.focus,
 .btn-black-outline.active {
   color: #ffffff;
-  background-color: #6264a7;
-  border-color: #6264a7;
+  background-color: #258B96;
+  border-color: #258B96;
 }
 .btn-black-outline.disabled,
 .btn-black-outline:disabled {
