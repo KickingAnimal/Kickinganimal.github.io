@@ -433,7 +433,7 @@ body {
 .btn-black-outline,
 .btn-black-outline:active {
   background: none;
-  border-color: #6264a7;
+  border-color: #1c6d75;
   color: #FFFFFF;
 }
 .btn-black-outline:hover,
@@ -441,14 +441,14 @@ body {
 .btn-black-outline.focus,
 .btn-black-outline.active {
   color: #ffffff;
-  background-color: #6264a7;
-  border-color: #6264a7;
+  background-color: #1c6d75;
+  border-color: #1c6d75;
 }
 .btn-black-outline.disabled,
 .btn-black-outline:disabled {
   color: #ffffff !important;
   background-color: #6264a7 !important;
-  border-color: #6264a7 !important;
+  border-color: #1c6d75 !important;
 }
 .btn-white-outline,
 .btn-white-outline:active,
@@ -1979,13 +1979,20 @@ section.lazy-placeholder:after {
   height: calc(4.1rem + 1px);
 }
 .btn-width-1 {
-  width: calc(15rem + 5px);
+  width: calc(15rem + 15px);
 }
 .btn-width-2 {
   width: calc(15rem + 1px);
 }
 .btn-width-3 {
   width: calc(30%);
+}
+.padding-1 {
+  padding-right: 155px;
+  position: absolute;
+}
+.center {
+  text-align: inherit;
 }
 
 @media (max-width: 767px) {
