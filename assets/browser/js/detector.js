@@ -15,4 +15,4 @@ function GetIEVersion() {
 }
 if ((GetIEVersion() > 0) || (navigator.userAgent.toLowerCase().indexOf('firefox') > -1)){
   alert("U gebruikt Internet Explorer versie: " + GetIEVersion() + " \ndeze browser werkt niet optimaal met de startpagina\nomdat deze browser verouderd is raden wij aan om een nieuwere browser te gebruiken zoals:\nGoogle Chrome, Mozilla Firefox of Microsoft Edge");
-}
+ }
