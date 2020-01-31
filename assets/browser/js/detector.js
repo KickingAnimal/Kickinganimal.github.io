@@ -2,7 +2,7 @@ function GetIEVersion() {
   var sAgent = window.navigator.userAgent;
   var Idx = sAgent.indexOf("MSIE");
   // If IE, return version number.
-  if (Idx > 0)
+  if (Idx > 1)
     return parseInt(sAgent.substring(Idx+ 5, sAgent.indexOf(".", Idx)));
 
   // If IE 11 then look for Updated user agent string.
@@ -10,9 +10,9 @@ function GetIEVersion() {
     return 11;
 
   else
-    return 0; //It is not IE
+    return -1; //It is not IE
 
 }
-if ((GetIEVersion() > 0) || (navigator.userAgent.toLowerCase().indexOf('firefox') > -1)){
-  alert("U gebruikt Internet Explorer versie: " + GetIEVersion() + " \ndeze browser werkt niet optimaal met de startpagina\nomdat deze browser verouderd is raden wij aan om een nieuwere browser te gebruiken zoals:\nGoogle Chrome, Mozilla Firefox of Microsoft Edge");
+if (GetIEVersion() > 6){
+    alert("U gebruikt Internet Explorer versie: " + GetIEVersion() + " \ndeze browser verouderd en is daarom niet meer veilig \nomdat deze browser verouderd is werken sommige pagina's ook niet goed, dus raden wij u aan om een nieuwere browser te gebruiken zoals:\nGoogle Chrome, Mozilla Firefox of Microsoft Edge\n\n\nHeeft u vragen over dit bericht neem dan contact op met de 'ICTcrew'");
  }
