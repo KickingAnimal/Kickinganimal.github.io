@@ -441,13 +441,11 @@ body {
 }
 .swap {
   position: relative;
-    padding-bottom: 2rem;
-    padding-right: 190px !important;
 }
 .swap img {
   position: absolute;
-  top:0;
-  left:0;
+  top: -16px;
+  left: -20px;
 }
 .swap .afas-blauw {
   z-index: 9999;
