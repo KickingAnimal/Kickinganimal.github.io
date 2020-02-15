@@ -451,7 +451,23 @@ body {
   z-index: 9999;
   transition: opacity .3s ease-in-out;
 }
-.btn-afas-outline:hover .swap > .afas-blauw{
+.swap2:hover .swap > .afas-blauw{
+  opacity: 0;
+}
+
+.swap3 {
+  position: relative;
+}
+.swap3 img {
+  position: absolute;
+  top: -16px;
+  left: -40px;
+}
+.swap3 .crew-kleur {
+  z-index: 9999;
+  transition: opacity .3s ease-in-out;
+}
+.swap2:hover .swap3 > .crew-kleur{
   opacity: 0;
 }
 .text-primary {

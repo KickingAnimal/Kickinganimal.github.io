@@ -2,24 +2,50 @@
 <html>
 <head>
   <title>:) ICTcrew easteregg</title>
-  <base href="https://Kickinganimal.github.io" target="_blank"> <!-- site build by Dion Frankes(KickingAnimal) and Lucas Olling !-->  
+  <a href="#" target=""/> <!-- site build by Dion Frankes(KickingAnimal) and Lucas Olling !-->  
   <style>
+          body {
+      animation: colorchange 2s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 2s infinite; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      25%  {background: green;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
   html, body {
     height: 100%;
     margin: 0;
   }
   body {
-    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   canvas {
     border: 1px solid white;
+      background-color: black;
   }
   </style>
 </head>
 <body>
+    <figure>
+        <img src="../../images/logo-rpcl-ICT-Crew-wit.svg" alt="logo-rpcl-ICT-Crew-wit.svg"/>
+        </figure>
 <canvas width="400" height="400" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
