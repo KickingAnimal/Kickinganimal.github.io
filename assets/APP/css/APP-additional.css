@@ -2,7 +2,8 @@
 
 
 
-
+  /* All CSS for the html pages (CSS for functions with .js not included)*/
+  /* if using any form of linter (spell check) ignore the 518 errors they're on purpose */
 
 body {
   font-family: Rubik;
@@ -437,7 +438,7 @@ body {
   color: #ffffff;
   background-color: #005FAA;
   border-color: #005FAA;
-  
+
 }
 .swap {
   position: relative;
@@ -617,7 +618,7 @@ blockquote {
 .mbr-footer .mbr-contacts li a:hover {
   color: #149dcc;
 }
-/* Headers*/
+/* Headers */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .card-wrapper {
     flex: auto !important;
