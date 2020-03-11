@@ -14,5 +14,5 @@ function GetIEVersion() {
 
 }
 if (GetIEVersion() > 6){
-    alert("U gebruikt Internet Explorer versie: " + GetIEVersion() + " \ndeze browser verouderd en is daarom niet meer veilig \nomdat deze browser verouderd is werken sommige pagina's ook niet goed, dus raden wij u aan om een nieuwere browser te gebruiken zoals:\nGoogle Chrome, Mozilla Firefox of Microsoft Edge\n\n\nHeeft u vragen over dit bericht neem dan contact op met de 'ICTcrew'");
+    alert("U gebruikt Internet Explorer versie: " + GetIEVersion() + " \ndeze browser verouderd.\nHierdoor werken sommige pagina's niet goed meer en/of zijn ze onveilig.\nWij raden u aan om een andere internet browser te gebruiken zoals:\nGoogle Chrome, Mozilla Firefox, Microsoft Edge\n\n\nHeeft u vragen over dit bericht of wilt u meer uitleg,\nbericht dan de ICT-Crew (ict.crew-rpcl@eemsdeltacollege.nl)");
  }
