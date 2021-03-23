@@ -448,11 +448,11 @@ body {
   top: -16px;
   left: -20px;
 }
-.swap .afas-blauw {
+.swap .front-img {
   z-index: 9999;
   transition: opacity .3s ease-in-out;
 }
-.swap2:hover .swap > .afas-blauw{
+.swap2:hover .swap > .front-img{
   opacity: 0;
 }
 
